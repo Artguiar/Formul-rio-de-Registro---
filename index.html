@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário de Registro Responsivo</title>
+</head>
+<body>
+    
+    <section class="main">
+        <h1 class="title">Formulário de Registro</h1>
+        <form id="form" action="submit">
+            <div class="main-box">
+
+                <div class="input-box">
+                    <span class="text">Nome Completo</span>
+                    <input id="input-nome" type="text" placeholder="Insira seu Nome" name="nome" required >
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Username</span>
+                    <input id="input-username type="text" placeholder="Insira seu Username" name="username" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">E-mail</span>
+                    <input id="input-email type="email" placeholder="Insira seu E-mail" name="email" required >
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Telefone</span>
+                    <input id="input-number type="number" placeholder="Insira seu Telefone" name="telefone" required >
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Senha</span>
+                    <input id="input-senha" type= "password" placeholder="Insira sua Senha" name="password" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Confirme sua senha</span>
+                    <input id="input-confsenha" type="password" placeholder="Confirme sua Senha" name="password" required >
+                </div>
+
+            </div>
+
+            <div class="container">
+                <input type="radio" name="sexo" id="circle-1" value="Masculino">
+                <input type="radio" name="sexo" id="circle-2" value="Feminino">
+                <input type="radio" name="sexo" id="circle-3" value="Outro">
+                <span class="gender">Sexo</span>
+                <div class="category">
+
+                    <label for="circle-1">
+                        <span class="circle one"></span>
+                        <span class="male">Masculino</span>
+                    </label>
+
+                    <label for="circle-2">
+                        <span class="circle two"></span>
+                        <span class="male">Feminino</span>
+                    </label>
+
+                    <label for="circle-3">
+                        <span class="circle three"></span>
+                        <span class="male">Outro</span>
+                    </label>
+
+                </div>
+            </div>
+
+            <div class="btn">
+                <button type="submit" id="btn1">Registrar</button> 
+            </div>
+        </form>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
