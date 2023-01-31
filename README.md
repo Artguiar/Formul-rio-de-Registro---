@@ -6,3 +6,5 @@ Consiste em uma aplicação de formulário simples que ao ser enviado cria uma t
 
 * [Link da Página]([https://fonts.google.com](https://artguiar.github.io/Formulario-de-Registro/))
 ---
+## Indice do Repósitório - 
+* [Acesse a página:](https://fonts.google.com](https://artguiar.github.io/Formulario-de-Registro/)
