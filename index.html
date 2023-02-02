@@ -10,39 +10,47 @@
 <body>
     
     <section class="main">
-        <h1 class="title">Formulário de Registro</h1>
+        <h1 class="title">Formulário</h1>
         <form id="form" action="submit">
             <div class="main-box">
 
                 <div class="input-box">
-                    <span class="text">Nome Completo</span>
-                    <input id="input-nome" type="text" placeholder="Insira seu Nome" name="nome" required >
+                    <span class="text">Nome</span>
+                    <input  id="input-nome" type="text" placeholder="..." name="nome" required  class="inputs required" >
+                    
                 </div>
 
                 <div class="input-box">
                     <span class="text">Username</span>
-                    <input id="input-username type="text" placeholder="Insira seu Username" name="username" required>
+                    <input id="input-username type="text" placeholder="..." name="username" value="" required class="inputs required" >
+                    
                 </div>
 
                 <div class="input-box">
                     <span class="text">E-mail</span>
-                    <input id="input-email type="email" placeholder="Insira seu E-mail" name="email" required >
+                    <input id="input-email type="email" placeholder="..." name="email" required class="inputs required" >
+                    
                 </div>
 
                 <div class="input-box">
                     <span class="text">Telefone</span>
-                    <input id="input-number type="number" placeholder="Insira seu Telefone" name="telefone" required >
+                    <input id="input-number type="number" placeholder="..." name="telefone" required class="inputs required" >
+                    
                 </div>
 
-                <div class="input-box">
+                <div class="input-box" id="input-box.error">
+                    <span class="text">Aniversário</span>
+                    <input id="input-confsenha" type="number" placeholder="..." name="password" required class="inputs required" >
+                    
+                </div>
+
+                <div class="input-box" id="input-box.success">
                     <span class="text">Senha</span>
-                    <input id="input-senha" type= "password" placeholder="Insira sua Senha" name="password" required>
+                    <input id="input-senha" type= "password" placeholder="..." name="password" value="" required class="inputs required" >
+                   
                 </div>
 
-                <div class="input-box">
-                    <span class="text">Confirme sua senha</span>
-                    <input id="input-confsenha" type="password" placeholder="Confirme sua Senha" name="password" required >
-                </div>
+                
 
             </div>
 
@@ -76,7 +84,7 @@
             </div>
         </form>
     </section>
-
+    <script src="https://kit.fontawesome.com/e73eff521b.js" crossorigin="anonymous"></script>
     <script src="./app.js"></script>
 </body>
 </html>
