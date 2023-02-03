@@ -6,6 +6,6 @@ Consiste em uma aplicação de formulário simples que ao ser enviado cria uma t
 
 ## Indice do Repósitório -
 
-* [Acesse o link da pagina](https://artguiar.github.io/Apple-Layout-Responsivo-NavBar-Responsiva/)
+* [Acesse o link da pagina]()
 ---
 
